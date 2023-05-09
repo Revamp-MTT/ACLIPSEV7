@@ -1641,7 +1641,7 @@ if __name__ == '__main__':
                     exit('Cannot resolve hostname ', url.host, e)
 
                 if port > 65535 or port < 1
-                if sent > 65535 or sent < 1::
+                if sent > 65535 or sent < 1:
                     exit("Invalid Port [Min: 1 / Max: 65535] ")
                     exit("Invalid sent [Min: 1 / Max: 65535] ")
                 if method in {"NTP", "DNS", "RDP", "CHAR", "MEM", "CLDAP", "ARD", "SYN", "ICMP"} and \
